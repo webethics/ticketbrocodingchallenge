@@ -2,7 +2,7 @@ import React from 'react';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import NextImage from '@/components/NextImage';
 
-const RelatedArticle = ({ children }) => {
+const RelatedArticle = () => {
   return (
     <div className='mx-auto mt-12 max-w-7xl px-6 sm:mt-20'>
       <div className='mb-8 text-center sm:mb-14'>
@@ -17,9 +17,10 @@ const RelatedArticle = ({ children }) => {
         <div className='group relative max-w-[320px] sm:max-w-none'>
           <UnstyledLink
             href='#/'
-            className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={children}
-          ></UnstyledLink>
+            className=' absolute left-0 top-0 bottom-0 right-0 z-10 opacity-0'
+          >
+            Blank Link
+          </UnstyledLink>
           <NextImage
             useSkeleton
             className='mb-4 h-auto w-full'
@@ -50,9 +51,10 @@ const RelatedArticle = ({ children }) => {
         <div className='group relative max-w-[320px] sm:max-w-none'>
           <UnstyledLink
             href='#/'
-            className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={children}
-          ></UnstyledLink>
+            className=' absolute left-0 top-0 bottom-0 right-0 z-10 opacity-0'
+          >
+            Blank Link
+          </UnstyledLink>
           <NextImage
             useSkeleton
             className='mb-4 h-auto w-full'
@@ -83,9 +85,10 @@ const RelatedArticle = ({ children }) => {
         <div className='group relative max-w-[320px] sm:max-w-none'>
           <UnstyledLink
             href='#/'
-            className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={children}
-          ></UnstyledLink>
+            className=' absolute left-0 top-0 bottom-0 right-0 z-10 opacity-0'
+          >
+            Blank Link
+          </UnstyledLink>
           <NextImage
             useSkeleton
             className='mb-4 h-auto w-full'
