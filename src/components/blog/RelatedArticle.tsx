@@ -2,7 +2,7 @@ import React from 'react';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import NextImage from '@/components/NextImage';
 
-const RelatedArticle = () => {
+const RelatedArticle = ({ children }) => {
   return (
     <div className='mx-auto mt-12 max-w-7xl px-6 sm:mt-20'>
       <div className='mb-8 text-center sm:mb-14'>
@@ -18,7 +18,7 @@ const RelatedArticle = () => {
           <UnstyledLink
             href='#/'
             className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={undefined}
+            children={children}
           ></UnstyledLink>
           <NextImage
             useSkeleton
@@ -51,7 +51,7 @@ const RelatedArticle = () => {
           <UnstyledLink
             href='#/'
             className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={undefined}
+            children={children}
           ></UnstyledLink>
           <NextImage
             useSkeleton
@@ -84,7 +84,7 @@ const RelatedArticle = () => {
           <UnstyledLink
             href='#/'
             className=' absolute left-0 top-0 bottom-0 right-0 z-10'
-            children={undefined}
+            children={children}
           ></UnstyledLink>
           <NextImage
             useSkeleton
