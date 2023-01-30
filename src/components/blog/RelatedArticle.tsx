@@ -14,6 +14,7 @@ const RelatedArticle = () => {
           You might be interested in these articles. Don’t miss them!
         </p>
       </div>
+
       <div className='grid-cols-auto  mx-auto grid max-w-[1024px] justify-center gap-8 sm:grid-cols-2 sm:justify-items-start sm:gap-5 md:grid-cols-3'>
         <div className='group relative max-w-[320px] sm:max-w-none'>
           <UnstyledLink
