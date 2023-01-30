@@ -1,12 +1,12 @@
 import React from 'react';
-
+import UnstyledLink from '@/components/links/UnstyledLink';
 import NextImage from '@/components/NextImage';
 
 const RelatedArticle = () => {
   return (
     <div className='mx-auto mt-12 max-w-7xl px-6 sm:mt-20'>
       <div className='mb-8 text-center sm:mb-14'>
-        <h2 className='mb-3.5 text-2xl sm:text-5xl'>Related articles</h2>
+        <h2 className='mb-3.5 text-2xl sm:text-4xl'>Related articles</h2>
         <p className='text-gray-500'>
           You might be interested in these articles. Don’t miss them!
         </p>
@@ -29,16 +29,12 @@ const RelatedArticle = () => {
           </h4>
           <ul className='flex items-center text-[13px]'>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Inés Guerrero
-              </a>
+              <span className='text-gray-500 '>Inés Guerrero</span>
 
               <span className='mx-2 h-1 w-1 rounded-2xl bg-[#CBD5E1]' />
             </li>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Mar 20, 2023
-              </a>
+              <span className='text-gray-500 '>Mar 20, 2023</span>
 
               <span className='h-0.5 w-0.5 bg-[#CBD5E1]' />
             </li>
@@ -57,20 +53,16 @@ const RelatedArticle = () => {
             News
           </span>
           <h4 className='text-1xl my-4 lg:text-2xl'>
-            Three keys to keeping your customers satisfied.
+            Top 5 booking features that makes a good booking system.
           </h4>
           <ul className='flex items-center text-[13px]'>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Inés Guerrero
-              </a>
+              <span className='text-gray-500 '>Mia Boskovic</span>
 
               <span className='mx-2 h-1 w-1 rounded-2xl bg-[#CBD5E1]' />
             </li>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Mar 20, 2023
-              </a>
+              <span className='text-gray-500 '>Mar 20, 2023</span>
 
               <span className='h-0.5 w-0.5 bg-[#CBD5E1]' />
             </li>
@@ -89,20 +81,16 @@ const RelatedArticle = () => {
             News
           </span>
           <h4 className='text-1xl my-4 lg:text-2xl'>
-            Three keys to keeping your customers satisfied.
+            Faster sales with active analytics.
           </h4>
           <ul className='flex items-center text-[13px]'>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Inés Guerrero
-              </a>
+              <span className='text-gray-500 '>Inés Guerrero</span>
 
               <span className='mx-2 h-1 w-1 rounded-2xl bg-[#CBD5E1]' />
             </li>
             <li className='inline-flex items-center'>
-              <a href='#' className='text-gray-500 hover:text-blue-500'>
-                Mar 20, 2023
-              </a>
+              <span className='text-gray-500 '>Mar 20, 2023</span>
 
               <span className='h-0.5 w-0.5 bg-[#CBD5E1]' />
             </li>

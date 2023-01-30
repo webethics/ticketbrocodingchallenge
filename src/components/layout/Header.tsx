@@ -83,7 +83,7 @@ const features = [
   },
 ];
 
-const resources = [
+const CaseStudyDropDown = [
   {
     name: 'Help Center',
     description:
@@ -143,7 +143,7 @@ export default function Header() {
               Home
             </UnstyledLink>
             <Popover className='relative'>
-              {({ open }) => (
+              {({ open }: { open: boolean }) => (
                 <>
                   <Popover.Button
                     className={classNames(
@@ -202,7 +202,7 @@ export default function Header() {
             </Popover>
 
             <Popover className='relative'>
-              {({ open }) => (
+              {({ open }: { open: boolean }) => (
                 <>
                   <Popover.Button
                     className={classNames(
@@ -232,8 +232,8 @@ export default function Header() {
                     <Popover.Panel className='absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 transform px-2 sm:px-0'>
                       <div className='overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5'>
                         <div className='relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8'>
-                          {resources.map((item) => (
-                            <a
+                          {CaseStudyDropDown.map((item) => (
+                            <UnstyledLink
                               key={item.name}
                               href={item.href}
                               className='-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50'
@@ -250,7 +250,7 @@ export default function Header() {
                                   {item.description}
                                 </p>
                               </div>
-                            </a>
+                            </UnstyledLink>
                           ))}
                         </div>
                       </div>
@@ -261,13 +261,13 @@ export default function Header() {
             </Popover>
 
             <UnstyledLink
-              href='#'
+              href='#/'
               className='text-base font-medium text-gray-700 hover:text-primary-500'
             >
               Pricing
             </UnstyledLink>
             <UnstyledLink
-              href='#'
+              href='#/'
               className='text-base font-medium text-gray-700 hover:text-primary-500'
             >
               Blog

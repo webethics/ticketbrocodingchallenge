@@ -44,7 +44,7 @@ const Footer = () => {
                 icon={AiFillLinkedin}
               />
               <IconButton
-                className='min-h-0 !min-w-[27px] !p-0 text-xl text-gray-400'
+                className='h-[20px] !min-h-0 w-[20px] !min-w-0 rounded-sm bg-gray-400 !p-0 text-sm text-white hover:bg-gray-400'
                 variant='ghost'
                 icon={FaTiktok}
               />
@@ -54,19 +54,19 @@ const Footer = () => {
             <div className='font-bold uppercase text-secondary'>Product</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Selfstarter <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Enterprise <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Pricing <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
@@ -75,19 +75,19 @@ const Footer = () => {
             <div className=' font-bold uppercase text-secondary'>Features</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Analytics <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Workload <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Bookable 24/7
             </UnstyledLink>
@@ -96,25 +96,25 @@ const Footer = () => {
             <div className=' font-bold uppercase text-secondary'>Company</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Careers
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               About us <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Blog
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Contact Sales
             </UnstyledLink>
@@ -123,19 +123,19 @@ const Footer = () => {
             <div className=' font-bold uppercase text-secondary'>Help</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               FAQs <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Customer support{' '}
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
-              href='/#'
+              href='#/'
             >
               Help center <span className='p-1 text-xs text-teal-600'></span>
             </UnstyledLink>
@@ -144,7 +144,7 @@ const Footer = () => {
             <div className=' font-bold uppercase text-secondary'>
               Get the app
             </div>
-            <UnstyledLink className='mt-3 inline-block' href='/#'>
+            <UnstyledLink className='mt-3 inline-block' href='#/'>
               <NextImage
                 useSkeleton
                 className='h-auto w-auto'
@@ -154,7 +154,7 @@ const Footer = () => {
                 alt='app-store-btn'
               />
             </UnstyledLink>
-            <UnstyledLink className='mt-3 inline-block' href='/#'>
+            <UnstyledLink className='mt-3 inline-block' href='#/'>
               <NextImage
                 useSkeleton
                 className='h-auto w-auto'
@@ -176,26 +176,26 @@ const Footer = () => {
           <nav className='rounded-md text-[13px]'>
             <ol className='list-reset flex flex-col gap-4 text-center sm:flex-row sm:gap-0 sm:text-left'>
               <li>
-                <UnstyledLink href='/#'>Imprint</UnstyledLink>
+                <UnstyledLink href='#/'>Imprint</UnstyledLink>
               </li>
               <li className='hidden sm:block'>
-                <span className='mx-2 text-gray-500'>/</span>
+                <span className='mx-2 text-gray-500'>|</span>
               </li>
               <li>
-                <UnstyledLink href='/#'>Data policy</UnstyledLink>
+                <UnstyledLink href='#/'>Data policy</UnstyledLink>
               </li>
               <li className='hidden sm:block'>
-                <span className='mx-2 text-gray-500'>/</span>
+                <span className='mx-2 text-gray-500'>|</span>
               </li>
               <li>
-                <UnstyledLink href='/#'>Terms & conditions</UnstyledLink>
+                <UnstyledLink href='#/'>Terms & conditions</UnstyledLink>
               </li>
               <li className='hidden sm:block'>
-                <span className='mx-2 text-gray-500'>/</span>
+                <span className='mx-2 text-gray-500'>|</span>
               </li>
               <li>
                 <UnstyledLink
-                  href='/#'
+                  href='#/'
                   className='flex items-center justify-center sm:justify-start'
                 >
                   <HiOutlineGlobeAlt className='mr-1' />
