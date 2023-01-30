@@ -1,7 +1,6 @@
 import Banner from '@/components/blog/Banner';
 import CallToAction from '@/components/blog/CallToAction';
 import Content from '@/components/blog/Content';
-
 import RelatedArticle from '@/components/blog/RelatedArticle';
 
 const index = () => {

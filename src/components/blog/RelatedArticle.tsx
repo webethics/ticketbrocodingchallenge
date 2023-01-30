@@ -1,4 +1,5 @@
 import React from 'react';
+
 import UnstyledLink from '@/components/links/UnstyledLink';
 import NextImage from '@/components/NextImage';
 
