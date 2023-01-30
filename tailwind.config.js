@@ -23,6 +23,10 @@ module.exports = {
           800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
+        blue: {
+          950: '#0F172A',
+        },
+        secondary: '#334155',
         dark: '#222222',
       },
       keyframes: {

@@ -1,4 +1,3 @@
-// !STARTERCONF You can delete this page
 import clsx from 'clsx';
 import * as React from 'react';
 import {
@@ -27,7 +26,7 @@ type Color = (typeof colorList)[number];
 
 export default function ComponentsPage() {
   const [mode, setMode] = React.useState<'dark' | 'light'>('light');
-  const [color, setColor] = React.useState<Color>('sky');
+  const [color, setColor] = React.useState<Color>('indigo');
   function toggleMode() {
     return mode === 'dark' ? setMode('light') : setMode('dark');
   }
