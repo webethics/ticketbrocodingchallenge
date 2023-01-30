@@ -28,7 +28,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className='mb-8 rounded-2xl bg-[#F0F2F4] p-8'>
+      <div className='mb-8 rounded-2xl bg-[#F0F2F4] p-8 italic leading-[26px]'>
         Imagine you are the owner of a business that has to be accessed through
         tickets. It's an autumn day, people are waiting in a queue under the
         rain. Your clients are getting cold and wet, probably not the best way
@@ -36,7 +36,7 @@ const Content = () => {
         day when hundreds of people are lined up in front of your business?
       </div>
 
-      <p className='mb-8'>
+      <p className='mb-8 leading-[26px]'>
         The person at the entrance collecting the tickets is not going fast
         enough to get the large queue of people into the venue in less than 20
         minutes of waiting. In this moment is when you think about the idea of
@@ -54,11 +54,11 @@ const Content = () => {
         and you, do the rest, that is whatever you want to do.
       </p>
 
-      <h4 className='mb-4'>
+      <h4 className='mb-4 text-[21px] font-semibold tracking-[-0.02em]'>
         What do we consider to be the main advantages of having an online
         booking system?
       </h4>
-      <p>
+      <p className='leading-[26px]'>
         Apart from the fact that you will still be able to sell tickets online
         at any time of the day. Your business will be closed and in the
         meantime, you will be able to see in real time how your customers buy
@@ -68,8 +68,11 @@ const Content = () => {
         visit your venue every day, how many tickets you have sold, how much
         money you have earned from sales. From anywhere in the world. You can
         create new types of tickets, as well as special days, manage the offers
-        you want to put on specific days. Its time to forget about analogic and
-        switch to digital. You will save time and money!
+        you want to put on specific days.
+      </p>
+      <p className='mt-1'>
+        Its time to forget about analogic and switch to digital. You will save
+        time and money!
       </p>
     </>
   );

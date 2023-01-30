@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='flex w-2/4 flex-col p-5 sm:w-48'>
-            <div className='font-bold uppercase text-secondary'>Product</div>
+            <div className='font-semibold text-secondary'>Product</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
               href='#/'
@@ -72,7 +72,7 @@ const Footer = () => {
             </UnstyledLink>
           </div>
           <div className='flex w-2/4 flex-col p-5 sm:w-48 '>
-            <div className=' font-bold uppercase text-secondary'>Features</div>
+            <div className=' font-semibold  text-secondary'>Features</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
               href='#/'
@@ -93,12 +93,15 @@ const Footer = () => {
             </UnstyledLink>
           </div>
           <div className='flex w-2/4 flex-col p-5 sm:w-48 '>
-            <div className=' font-bold uppercase text-secondary'>Company</div>
+            <div className=' font-semibold  text-secondary'>Company</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
               href='#/'
             >
               Careers
+              <span className='ml-2 inline-block rounded-lg bg-[#E6E8FE] p-4 py-1 px-2 text-sm text-primary-500'>
+                Hiring
+              </span>
             </UnstyledLink>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
@@ -120,7 +123,7 @@ const Footer = () => {
             </UnstyledLink>
           </div>
           <div className='flex w-2/4 flex-col p-5 sm:w-48 '>
-            <div className=' font-bold uppercase text-secondary'>Help</div>
+            <div className=' font-semibold  text-secondary'>Help</div>
             <UnstyledLink
               className='mt-3 inline-block text-gray-500 hover:text-primary-500'
               href='#/'
@@ -141,9 +144,7 @@ const Footer = () => {
             </UnstyledLink>
           </div>
           <div className='flex w-full flex-col p-5 sm:w-48 '>
-            <div className=' font-bold uppercase text-secondary'>
-              Get the app
-            </div>
+            <div className='font-semibold  text-secondary'>Get the app</div>
             <UnstyledLink className='mt-3 inline-block' href='#/'>
               <NextImage
                 useSkeleton
@@ -176,19 +177,25 @@ const Footer = () => {
           <nav className='rounded-md text-[13px]'>
             <ol className='list-reset flex flex-col gap-4 text-center sm:flex-row sm:gap-0 sm:text-left'>
               <li>
-                <UnstyledLink href='#/'>Imprint</UnstyledLink>
+                <UnstyledLink className='hover:text-white' href='#/'>
+                  Imprint
+                </UnstyledLink>
               </li>
               <li className='hidden sm:block'>
                 <span className='mx-2 text-gray-500'>|</span>
               </li>
               <li>
-                <UnstyledLink href='#/'>Data policy</UnstyledLink>
+                <UnstyledLink className='hover:text-white' href='#/'>
+                  Data policy
+                </UnstyledLink>
               </li>
               <li className='hidden sm:block'>
                 <span className='mx-2 text-gray-500'>|</span>
               </li>
               <li>
-                <UnstyledLink href='#/'>Terms & conditions</UnstyledLink>
+                <UnstyledLink className='hover:text-white' href='#/'>
+                  Terms & conditions
+                </UnstyledLink>
               </li>
               <li className='hidden sm:block'>
                 <span className='mx-2 text-gray-500'>|</span>
@@ -196,7 +203,7 @@ const Footer = () => {
               <li>
                 <UnstyledLink
                   href='#/'
-                  className='flex items-center justify-center sm:justify-start'
+                  className='flex items-center justify-center hover:text-white sm:justify-start'
                 >
                   <HiOutlineGlobeAlt className='mr-1' />
                   English

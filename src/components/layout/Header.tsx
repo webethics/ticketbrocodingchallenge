@@ -121,24 +121,27 @@ export default function Header() {
   return (
     <Popover className='relative bg-white'>
       <div className='mx-auto max-w-7xl px-6'>
-        <div className='flex items-center justify-between py-6 md:space-x-10 lg:justify-start'>
+        <div className='flex min-h-[64px] items-center justify-between sm:min-h-0 md:space-x-10 lg:justify-start'>
           <div className='flex justify-start lg:w-0 lg:flex-1'>
             <a href='#'>
               <span className='sr-only'>ticketbro</span>
-              <Logo className='h-[24px] text-[134.18px]' />
+              <Logo className='sm:w[134.18px] h-[15.74px] w-[82.7px] text-[134.18px] sm:h-[23.62px]' />
             </a>
           </div>
           <div className='-my-2 -mr-2 lg:hidden'>
-            <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+            <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:text-gray-500 focus:outline-none'>
               <span className='sr-only'>Open menu</span>
-              <Bars3Icon className='h-6 w-6' aria-hidden='true' />
+              <Bars3Icon
+                className='h-7 w-7 text-secondary hover:text-primary-500'
+                aria-hidden='true'
+              />
             </Popover.Button>
           </div>
 
           <Popover.Group as='nav' className='hidden space-x-10 lg:flex'>
             <UnstyledLink
               href='#'
-              className='text-base font-medium text-gray-700 hover:text-primary-500'
+              className='py-8 text-base font-medium text-gray-700 hover:text-primary-500'
             >
               Home
             </UnstyledLink>
@@ -148,14 +151,14 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-700',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-primary-500 focus-visible:outline-none'
+                      'group inline-flex items-center rounded-md bg-white py-8 text-base font-medium hover:text-primary-500 focus-visible:outline-none'
                     )}
                   >
                     <span>Features</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-gray-600' : 'text-gray-700',
-                        'ml-2 h-5 w-5 group-hover:text-gray-500'
+                        open ? 'text-gray-900' : 'text-gray-700',
+                        'ml-2 h-5 w-5 group-hover:text-primary-500'
                       )}
                       aria-hidden='true'
                     />
@@ -207,14 +210,14 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-700',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-primary-500 focus-visible:outline-none'
+                      'group inline-flex items-center rounded-md bg-white py-8 text-base font-medium hover:text-primary-500 focus-visible:outline-none'
                     )}
                   >
                     <span>Case studies</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-gray-600' : 'text-gray-700',
-                        'ml-2 h-5 w-5 group-hover:text-gray-500'
+                        open ? 'text-gray-900' : 'text-gray-700',
+                        'ml-2 h-5 w-5 group-hover:text-primary-500'
                       )}
                       aria-hidden='true'
                     />
@@ -262,13 +265,13 @@ export default function Header() {
 
             <UnstyledLink
               href='#/'
-              className='text-base font-medium text-gray-700 hover:text-primary-500'
+              className='py-8 text-base font-medium text-gray-700 hover:text-primary-500'
             >
               Pricing
             </UnstyledLink>
             <UnstyledLink
               href='#/'
-              className='text-base font-medium text-gray-700 hover:text-primary-500'
+              className='after:contet-[""] relative py-8 text-base font-medium text-primary-500 after:absolute after:top-0 after:left-0 after:right-0 after:h-[2px] after:bg-primary-500 hover:text-primary-500'
             >
               Blog
             </UnstyledLink>
@@ -290,16 +293,16 @@ export default function Header() {
       >
         <Popover.Panel
           focus
-          className='absolute inset-x-0 top-0 z-40 origin-top-right transform p-2 transition lg:hidden'
+          className='absolute inset-x-0 top-0 z-40 origin-top-right transform transition lg:hidden'
         >
-          <div className='divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5'>
+          <div className='divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 '>
             <div className='px-5 pt-5 pb-6'>
               <div className='flex items-center justify-between'>
                 <div>
                   <Logo className='h-[24px] text-[134.18px]' />
                 </div>
                 <div className='-mr-2'>
-                  <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
+                  <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-secondary  hover:text-primary-500 focus:outline-none'>
                     <span className='sr-only'>Close menu</span>
                     <XMarkIcon className='h-6 w-6' aria-hidden='true' />
                   </Popover.Button>
