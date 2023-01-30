@@ -1,6 +1,6 @@
 import NextImage from '@/components/NextImage';
 
-const Content = () => {
+const BlogContent = () => {
   return (
     <>
       <h1 className='mt-6 text-2xl sm:mt-14 sm:text-5xl'>
@@ -78,4 +78,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default BlogContent;

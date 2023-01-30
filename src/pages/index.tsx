@@ -1,6 +1,6 @@
 import Banner from '@/components/blog/Banner';
+import BlogContent from '@/components/blog/BlogContent';
 import CallToAction from '@/components/blog/CallToAction';
-import Content from '@/components/blog/Content';
 import RelatedArticle from '@/components/blog/RelatedArticle';
 
 const index = () => {
@@ -8,9 +8,8 @@ const index = () => {
     <>
       <div className='relative mx-auto max-w-[720px] px-4 sm:px-6'>
         <Banner />
-        <Content />
+        <BlogContent />
       </div>
-
       <RelatedArticle />
       <CallToAction />
     </>
